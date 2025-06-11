@@ -44,18 +44,12 @@ To run this project locally, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. **Set up environment variables**:
-    Create a `.env` file in the root directory and add the following variables:
-    ```env
-    FLASK_SECRET_KEY=your_secret_key
-    ```
-
-5. **Run the Flask app**:
+4. **Run the Flask app**:
     ```bash
     flask run
     ```
 
-6. **Open your browser** and navigate to `http://127.0.0.1:5000` to view the app.
+5. **Open your browser** and navigate to `http://127.0.0.1:5000` to view the app.
 
 ## Usage
 
