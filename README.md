@@ -1,0 +1,79 @@
+# Resume Web App
+
+Welcome to the Resume Web App! This project showcases a portfolio website for Ippili Hemanth Sai Manikanta, featuring sections for the homepage, resume, projects, about me, and contact information.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+
+## Overview
+
+The Resume Web App is a personal portfolio website built using Flask, HTML, CSS, and JavaScript. It provides an interactive and user-friendly interface to showcase the professional profile, projects, and contact information of Ippili Hemanth Sai Manikanta.
+
+## Features
+
+- **Homepage**: A welcoming page with an introduction and links to other sections.
+- **Resume**: A detailed resume with sections for professional summary, education, work experience, skills, certifications, and achievements.
+- **Projects**: A list of projects with detailed descriptions and tasks.
+- **About Me**: A personal introduction and background information.
+- **Contact Me**: Contact information and social media links.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/resume_web_app.git
+    cd resume_web_app
+    ```
+
+2. **Create a virtual environment**:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
+3. **Install the dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Set up environment variables**:
+    Create a `.env` file in the root directory and add the following variables:
+    ```env
+    FLASK_SECRET_KEY=your_secret_key
+    ```
+
+5. **Run the Flask app**:
+    ```bash
+    flask run
+    ```
+
+6. **Open your browser** and navigate to `http://127.0.0.1:5000` to view the app.
+
+## Usage
+
+- **Homepage**: Provides an introduction and links to the resume, projects, and contact sections.
+- **Resume**: Displays detailed information about professional experience, education, skills, and achievements.
+- **Projects**: Lists projects with descriptions and tasks.
+- **About Me**: Shares personal background and interests.
+- **Contact Me**: Provides contact information and social media links.
+
+## Technologies Used
+
+- **Flask**: A lightweight WSGI web application framework in Python.
+- **HTML**: Markup language for creating web pages.
+- **CSS**: Stylesheet language for designing web pages.
+- **JavaScript**: Programming language for creating interactive web pages.
+- **Jinja2**: Templating engine for Python.
+
+## Contributing
+
+Contributions are always welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
+

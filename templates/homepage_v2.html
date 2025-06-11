@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ippili Hemanth Sai</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
+</head>
+<body class="homepage_body" data-theme="light">
+    {% include 'header.html' %}
+
+    <div class="homepage_hero">
+        <h1>👋 Hey there! Welcome to My Portfolio!</h1>
+        <p>🤠 Howdy! I'm Hemanth Sai, your friendly neighborhood Data Enthusiast, passionate about automation and cloud solutions.</p>
+        <p>✨ This portfolio is my playful side project, whipped up with Python magic and ChatGPT's brainpower!</p>
+        <a href="/resume">View Resume</a>
+        <a href="/projects">Explore Projects</a>
+        <a href="/contact">Contact Me</a>
+    </div>
+
+    <div class="homepage_highlights">
+        <div>
+            <h2>2+ 🕒</h2>
+            <p>Years of Experience</p>
+        </div>
+        <div>
+            <h2>60% ⚡</h2>
+            <p>Efficiency Improved</p>
+        </div>
+        <div>
+            <h2>1 🚀</h2>
+            <p>Promotions Achieved</p>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>

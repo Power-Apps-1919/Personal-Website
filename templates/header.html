@@ -1,0 +1,51 @@
+<header class="common_header">
+    <span>Ippili Hemanth Sai</span>
+    <nav>
+        <div>
+            {% if request.path != '/' %}
+                <a href="/">🏠 Back to Home</a>
+            {% endif %}
+            <a href="/">🏠 Home</a>
+            <a href="/resume">📄 Resume</a>
+            <a href="/projects">🚀 Projects</a>
+            <a href="/about">👤 About Me</a>
+            <a href="/contact">📞 Contact</a>
+        </div>
+        <div class="common_switch">
+            <input type="checkbox" id="theme-switch" onchange="toggleTheme(event)" />
+            <label class="common_slider" for="theme-switch"></label>
+        </div>
+        <div class="common_user-profile">
+            <div class="common_avatar" onclick="toggleProfileMenu('profile-menu', 'common_avatar')" data-tooltip="{{ user_name }} - {{ user_email }}">
+                <span id="user-avatar">{{ user_name|initials if user_name else 'G' }}</span>
+            </div>
+            <div id="profile-menu" class="common_profile-menu">
+                <div class="profile-header">
+                    <div class="profile-avatar">
+                        <span>{{ user_name|initials if user_name else '' }}</span>
+                    </div>
+                    <div class="profile-details">
+                        <p id="profile-name">{{ user_name }}</p>
+                        <p id="profile-email">{{ user_email }}</p>
+                    </div>
+                    <button class="close-btn" onclick="closeProfileMenu('profile-menu')">&times;</button>
+                </div>
+                <ul>
+                    <li><a href="javascript:void(0)" onclick="openSetNamePopup('popup', '{{ user_name }}', '{{ user_email }}')">Set User Details</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="popup" class="homepage_popup">
+    <h3>👋 Hey there, friend!</h3>
+    <p>We'd love to stay in touch! Drop your name and email below to keep the conversation going. 😊</p>
+    <input type="text" name="user_name" value="{{ user_name if user_name else '' }}" placeholder="Enter your name" required />
+    <input type="email" name="user_email" value="{{ user_email if user_email else '' }}" placeholder="Enter your email" required />
+    <button type="button" onclick="sendUserData('user_name', 'user_email', 'popup', '.homepage_hero h1', 'user-avatar')">Submit ✨</button>
+    <button type="button" onclick="closePopup('popup')">Skip 🚀</button>
+</div>
+
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>

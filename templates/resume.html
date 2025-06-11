@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ippili Hemanth Sai Manikanta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
+</head>
+<body class="resume_body" data-theme="light">
+    {% include 'header.html' %}
+
+    <div class="resume_container">
+        <!-- Header -->
+        <div class="resume_header">
+            <h1>Ippili Hemanth Sai Manikanta</h1>
+            <p>Hyderabad | +91 89783 17055 | 
+                <a href="mailto:Hemanthsaimanikanta1919@gmail.com">Hemanthsaimanikanta1919@gmail.com</a> | 
+                <a href="https://www.linkedin.com/in/hemanth-sai-manikanta-08216b1bb" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="resume_section">
+            <h2>Professional Summary</h2>
+            <p>Dynamic and results-oriented data professional with over <strong>1.5 years</strong> of experience in designing and optimizing data workflows, automating processes, and improving operational efficiency. Skilled in leveraging technologies such as <strong>Power Apps</strong>, <strong>Power Automate</strong>, <strong>Python</strong>, <strong>SQL</strong>, and <strong>Azure Function Apps</strong> to deliver impactful solutions. Proven ability to streamline complex workflows, achieve significant time savings (e.g., reducing report generation by <strong>60%</strong>), and enhance data reliability. Recognized for rapid career growth, earning <strong>two promotions</strong> from Intern to Data Engineer-2, and praised for creating user-centric solutions and fostering collaboration across teams.</p>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="resume_section">
+            <h2>Work Experience</h2>
+            <p class="resume_subheader">Data Engineer-2 | Accordion India (formerly Merilytics) | Apr 2024 - Present</p>
+            <ul class="resume_ul">
+                <li>Architected and delivered Power Apps and automated workflow solutions, integrating data from SQL, Snowflake, Dataverse, SharePoint, and Excel—improving process efficiency and user experience for <b>80+</b> business users.</li>
+                <li>Reduced manual intervention by <b>60%</b> and improved scalability by implementing Power Automate and Azure Function Apps for business-critical processes.</li>
+                <li>Developed and optimized stored procedures and Python-based Azure Functions, enabling real-time, customizable reporting.</li>
+                <li>Created comprehensive user documentation and training, increasing user adoption and self-sufficiency by <b>40%</b>.</li>
+            </ul>
+
+            <p class="resume_subheader">Senior Technical Associate | Accordion India (formerly Merilytics) | Oct 2023 - Apr 2024</p>
+            <ul class="resume_ul">
+                <li>Transformed legacy Excel VBA processes into Python scripts, reducing process runtimes by <b>55%</b> and improving data reliability for recurring business reports.</li>
+                <li>Redesigned Excel-based workflows, achieving a <b>60%</b> reduction in report generation time and enhancing consistency of deliverables.</li>
+                <li>Automated manual reporting tasks, freeing up <b>20+</b> hours per week for the team to focus on higher-value analysis.</li>
+                <li>Introduced new reporting templates and macros, elevating the quality and usability of business reports for <b>10+</b> stakeholders.</li>
+            </ul>
+
+            <p class="resume_subheader">Technical Associate | Accordion India (formerly Merilytics) | May 2023 - Oct 2023</p>
+            <ul class="resume_ul">
+                <li>Maintained and improved daily automated workflows using Python, Snowflake, and Excel VBA, ensuring on-time report delivery and high data quality.</li>
+                <li>Developed quality control checks in reports, reducing manual review efforts by <b>30%</b> and increasing process reliability.</li>
+                <li>Enhanced reporting capabilities by designing new templates and automating formatting tasks, resulting in improved productivity and user satisfaction.</li>
+            </ul>
+        </div>
+
+        <!-- Skills -->
+        <div class="resume_section">
+            <h2>Skills</h2>
+            <ul class="resume_skills-list">
+                <li><strong>Power Platform:</strong> Power Apps, Power Automate, Dataverse</li>
+                <li><strong>Connectors:</strong> SQL Server, Snowflake, SharePoint, Excel, Outlook, Teams, Office 365, OneDrive, HTTP, Dataverse, Power BI</li>
+                <li><strong>Automation:</strong> Workflow Automation, Process Optimization, Excel VBA (macros)</li>
+                <li><strong>Cloud & Data Integration:</strong> Azure Functions, SharePoint, SQL, Snowflake, Excel</li>
+                <li><strong>Programming & Scripting:</strong> Python, SQL, VBA</li>
+                <li><strong>Collaboration:</strong> Requirements Gathering, User Training, Documentation, Team Support</li>
+            </ul>
+        </div>
+        
+        <!-- Education -->
+        <div class="resume_section resume_education">
+            <h2>Education</h2>
+            <p><strong>B.E, Electronics & Communication Engineering</strong>, CBIT, Hyderabad (2019-2023) | <strong>CGPA: 8.02</strong></p>
+            <p><strong>Intermediate</strong>, Narayana Jr. College, Vizag (2017-2019) | <strong>CGPA: 9.94</strong></p>
+            <p><strong>Matriculation</strong>, Narayana School, Srikakulam (2016-2017) | <strong>CGPA: 9.7</strong></p>
+        </div>
+
+        <!-- Certifications & Recognitions -->
+        <div class="resume_section">
+            <h2>Certifications & Recognitions</h2>
+            <ul class="resume_skills-list">
+                <li>PL-900 Certification (<strong>Microsoft Power Platform Fundamentals</strong>)</li>
+                <li><strong>General Coordinator</strong>, Ramanujan Mathematics Club, CBIT (Aug 2019 - Sep 2020, Hyderabad, Telangana, India)</li>
+            </ul>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ippili Hemanth Sai Manikanta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
+</head>
+<body class="projects_body" data-theme="light">
+    {% include 'header.html' %}
+
+    <div class="projects_container">
+        <h1>🚀 Projects</h1>
+        <div class="project">
+            <h2>📱 Project 1: oneCAL App</h2>
+            <table class="project_table">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">Section</th>
+                        <th style="text-align: center;">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>📋 Project Background</td>
+                        <td>The client needed a solution to streamline their sales scheduling process, which was previously managed manually, leading to inefficiencies and errors.</td>
+                    </tr>
+                    <tr>
+                        <td>🛠️ Tools Used</td>
+                        <td>Power Apps, Power Automate, SQL, Python, Azure Function Apps</td>
+                    </tr>
+                    <tr>
+                        <td>💡 Solution Developed</td>
+                        <td>Developed using Power Apps and Power Automate, this app optimizes UI/UX and streamlines processes to significantly reduce manual work.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Project Tasks</h3>
+            <ul class="project-tasks">
+                <li>Designed and implemented SQL scripts for seamless data integration.</li>
+                <li>Automated PDF document generation using Python for dynamic sales schedules.</li>
+                <li>Built custom connectors for Power Apps to integrate with Azure Function Apps.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h2>📊 Project 2: Excel Workflow Optimization</h2>
+            <table class="project_table">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">Section</th>
+                        <th style="text-align: center;">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>📋 Project Background</td>
+                        <td>The client relied heavily on Excel for report generation, which was time-consuming and prone to errors due to manual processes.</td>
+                    </tr>
+                    <tr>
+                        <td>🛠️ Tools Used</td>
+                        <td>Excel VBA, Python, SQL</td>
+                    </tr>
+                    <tr>
+                        <td>💡 Solution Developed</td>
+                        <td>Analyzed existing Excel VBA processes and migrated essential tasks to Python scripts, reducing runtime by 55%.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Project Tasks</h3>
+            <ul class="project-tasks">
+                <li>Optimized the entire Excel workflow, achieving a 60% reduction in report generation time.</li>
+                <li>Reduced report generation time from 3 hours to 40-60 minutes.</li>
+                <li>Streamlined manual processes by introducing new VBA Macros and Python scripts.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h2>📈 Project 3: Automated Reporting Templates</h2>
+            <table class="project_table">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">Section</th>
+                        <th style="text-align: center;">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>📋 Project Background</td>
+                        <td>The client needed new reporting templates to enhance usability and visualization, while reducing manual effort in formatting.</td>
+                    </tr>
+                    <tr>
+                        <td>🛠️ Tools Used</td>
+                        <td>Excel VBA, Python</td>
+                    </tr>
+                    <tr>
+                        <td>💡 Solution Developed</td>
+                        <td>Developed three new Excel reporting templates based on existing ones, enhancing usability and visualization.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Project Tasks</h3>
+            <ul class="project-tasks">
+                <li>Automated the formatting of Excel files using VBA Macros, saving significant manual effort.</li>
+                <li>Designed a QC tab in Excel to reduce manual quality-checking efforts by 30%.</li>
+            </ul>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+
+    {% include 'footer.html' %}
+    
+</body>
+</html>
