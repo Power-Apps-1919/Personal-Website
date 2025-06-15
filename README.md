@@ -1,6 +1,6 @@
-# Resume Web App
+# Personal Website
 
-Welcome to the Resume Web App! This project showcases a portfolio website for Ippili Hemanth Sai Manikanta, featuring sections for the homepage, resume, projects, about me, and contact information.
+Welcome to the Personal Website! This project showcases a portfolio website for Ippili Hemanth Sai Manikanta, featuring sections for the homepage, resume, projects, about me, and contact information.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Welcome to the Resume Web App! This project showcases a portfolio website for Ip
 
 ## Overview
 
-The Resume Web App is a personal portfolio website built using Flask, HTML, CSS, and JavaScript. It provides an interactive and user-friendly interface to showcase the professional profile, projects, and contact information of Ippili Hemanth Sai Manikanta.
+The Personal Website is a portfolio website built using Flask, HTML, CSS, and JavaScript. It provides an interactive and user-friendly interface to showcase the professional profile, projects, and contact information of Ippili Hemanth Sai Manikanta.
 
 ## Features
 
