@@ -33,18 +33,25 @@ To run this project locally, follow these steps:
     cd Personal-Website
     ```
 
-2. **Create a virtual environment**:
-    ```bash
+2. **Create and activate a virtual environment using a batch file (Windows)**:
+
+    Create a batch file named `setup_venv.bat` with the following content:
+    ```bat
     python -m venv venv
+    call venv\Scripts\activate.bat
     ```
-    Activate the virtual environment:
-    - On macOS/Linux:
+
+    Then, run the batch file in Command Prompt:
+    ```bash
+    setup_venv.bat
+    ```
+
+    **Impact:**  
+    - This approach automates the creation and activation of the virtual environment for Windows users.
+    - The batch file will only work in Command Prompt, not in PowerShell or on macOS/Linux.
+    - For macOS/Linux, users should still use the manual activation command:
       ```bash
       source venv/bin/activate
-      ```
-    - On Windows:
-      ```bash
-      venv\Scripts\activate
       ```
 
 3. **Install the dependencies**:
