@@ -29,15 +29,23 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/resume_web_app.git
-    cd resume_web_app
+    git clone https://github.com/Power-Apps-1919/Personal-Website
+    cd Personal-Website
     ```
 
 2. **Create a virtual environment**:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
+    Activate the virtual environment:
+    - On macOS/Linux:
+      ```bash
+      source venv/bin/activate
+      ```
+    - On Windows:
+      ```bash
+      venv\Scripts\activate
+      ```
 
 3. **Install the dependencies**:
     ```bash
@@ -49,7 +57,7 @@ To run this project locally, follow these steps:
     flask run
     ```
 
-5. **Open your browser** and navigate to `http://127.0.0.1:5000` to view the app.
+5. **Open your browser** and go to [http://127.0.0.1:5000](http://127.0.0.1:5000) to view the app.
 
 ## Usage
 
@@ -71,3 +79,7 @@ To run this project locally, follow these steps:
 
 Contributions are always welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
 
+## Contact
+
+- **Email**: [Hemanthsaimanikanta1919@gmail.com](mailto:Hemanthsaimanikanta1919@gmail.com)
+- **LinkedIn**: [hemanth-sai-manikanta-08216b1bb](https://www.linkedin.com/in/hemanth-sai-manikanta-08216b1bb)
